@@ -7,3 +7,147 @@
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
+
+body {
+    background-color: #9F9F9F;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+hr {
+    border: 1px solid #D1D1D1;
+}
+
+/* nav bar start */
+.nav-bar {
+    background-color: #562EFF;
+    height: 94px;
+    margin-bottom: 30px;
+}
+
+.nav-bar .nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo img {
+    height: 50px;
+    width: 40px;
+}
+
+.logo h1 {
+    width: 54px;
+    height: 36px;
+    font-weight: 500;
+    font-size: 24px;
+    font-family: 'Poppins';
+    color: #FFFFFF;
+}
+
+.nav-item ul {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Poppins';
+}
+
+.nav-item img {
+    width: 51px;
+    height: 51px;
+}
+
+/* start palyer section */
+.player-section {
+    background-color: #fff;
+    padding: 33px 30px 41px 30px;
+    border-radius: 5px;
+}
+
+.top-players {
+    margin-bottom: 30px;
+}
+
+.section-title {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 24px;
+    color: #562EFF;
+    margin-bottom: 40px;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 100px;
+}
+
+.player {
+    display: flex;
+    align-items: center;
+}
+
+.player img {
+    width: 56px;
+    height: 56px;
+}
+
+.player h3 {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 18px;
+    color: #000000;
+    margin-left: 16px;
+}
+.top-blogs .section-title{
+    margin-top: 30px;
+}
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 26px;
+    grid-column-gap: 100px;
+}
+
+.blog {
+    display: flex;
+}
+.thumbanil img {
+    width: 177px;
+    height: 117px;
+}
+.blog-info{
+    margin-left: 30px;
+}
+.blog-title {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 34px;
+    color: #000000;
+    margin-bottom: 6px;
+}
+
+.blog-author {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    color: #9F9F9F;
+}
+.blog-author a{
+    color: #562EFF;
+}
