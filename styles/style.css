@@ -170,9 +170,8 @@ hr {
 
 }
 .courses{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 .courses .banner img {
     width: 224px;
@@ -250,4 +249,28 @@ hr {
     font-weight: 600;
     font-size: 14.6913px;
     padding: 4px 5px;
+}
+.display-none{
+    display: none;
+}
+/* media query */
+@media screen and (max-width:576px) {
+    .nav-bar .nav-content{
+        flex-direction: column;
+    }
+    .nav-item ul{
+        display: none;
+    }
+    .players{
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 10px;
+    }
+    .blogs{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .courses{
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
 }
